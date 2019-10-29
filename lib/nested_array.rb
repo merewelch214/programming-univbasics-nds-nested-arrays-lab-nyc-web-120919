@@ -46,4 +46,9 @@ end
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
+      new_array = [
+    ENNET_HOUSE, 
+    ENFIELD_TENNIS_ACADEMY
+    ] 
+    new_array[row][column] = new_value
 end
